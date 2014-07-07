@@ -29,14 +29,14 @@ The constant `WISE PHILOSOPHER` in `DiningPhilosophers.java` allows to switch
 between wise and standard philosophers.
 
 Create a JAR archive and start the simulation with the command
-    java -jar WiseDiningPhilosophers.jar <k> <l> <h> <e>
+    java -jar WiseDiningPhilosophers.jar k l h e
 where
-* <k> denotes the number of philosophers
-* <l> is the minimum thinking time of a philosopher in milliseconds.
-* <h> is the maximum thinking time of a philosopher in milliseconds.
+* `k` denotes the number of philosophers
+* `l` is the minimum thinking time of a philosopher in milliseconds.
+* `h` is the maximum thinking time of a philosopher in milliseconds.
   The thinking time is chosen uniformly at random out of the
-  interval [<l>, <h>].
-* <e> is the eating time in milliseconds.
+  interval [`l`, `h`].
+* `e` is the eating time in milliseconds.
 
 # Copyright
 
